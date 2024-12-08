@@ -36,6 +36,10 @@ h4 {
     color: var(--primary-color);
 }
 
+li {
+    list-style-type: none;
+}
+
 p {
     margin-bottom: 14px;
     padding-left: 4px;
@@ -91,6 +95,11 @@ p {
 } 
 
 @media (max-width: 730px) {
+    .body {
+        background: url(images/background-pattern-mobile.svg);
+        background-repeat: no-repeat;
+    }
+
     .container {
         width: 380px;
         padding-top: 1px;
